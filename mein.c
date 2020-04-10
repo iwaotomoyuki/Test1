@@ -2,7 +2,14 @@
 
 void main(void)
 {
+	int i = 0;
 	int total = 0;
-	total = add(1, 2);
+	
+	init();
+	for(i = 0; i < 100; i++) {
+		add(i);
+	}
+	total = get();
+	
 	return;
 }

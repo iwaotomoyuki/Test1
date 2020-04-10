@@ -1,6 +1,18 @@
 #include "test.h"
 
-int add(int x, int y)
+static int total = 0;
+
+void init(void)
 {
-	return x + y;
+	total = 0;
+}
+
+void add(int x)
+{
+	return total + x;
+}
+
+int get(void)
+{
+	return total;
 }

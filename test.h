@@ -1,3 +1,5 @@
 #include <Stdio.h>
 
-int add(int a, int b);
+void init(void);
+void add(int x);
+int get(void);
