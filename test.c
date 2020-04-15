@@ -9,7 +9,7 @@ void init(void)
 
 void add(int x)
 {
-	return total + x;
+	total += x;
 }
 
 int get(void)
